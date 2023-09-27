@@ -104,6 +104,14 @@
     }
 }
 
+
+@media (orientation:landscape) and (max-width: 650px){
+    .container{
+        min-height: 180%;
+        background-color: red;
+    }
+}
+
 /* ФИНАЛЬНЫЕ ТРЕБОВАНИЯ ДЛЯ ЗАВЕРШЕНИЯ ЛЕНДИНГА */
 /* 
 выбор толщины шрифта

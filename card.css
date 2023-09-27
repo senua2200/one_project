@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%; 
+}
+body{
+    margin: 0;
+}
+.card{
+    background-color: aquamarine;
+    max-width: 400px;
+    padding: 10px 20px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px #ff0000;
+    font-family: Tahoma;
+}
+.imm{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-image: url("./о.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.imm:hover{
+    background-image: url("./ghh.jpg");
+    /* transition: 0.2s; */
+}
+.im{
+    text-align: center;
+}
+.im h1{
+    color: green;
+    margin: 10px 0 20px 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+}
+.skills{
+    width: 100%
+}
+ul{
+    padding: 0;
+    list-style-position: inside;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+.hh{
+    margin-top: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    
+    /* Фон */
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+
+    /* Для ноута */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /* Для пк */
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+
+    /* Центрирование */
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+.hhh{
+    margin-bottom: 0;
+}
+
+
+/* Для пк */
+/* .r{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px red;
+}
+.r1{
+    align-self: flex-start;
+}
+.r2{
+    align-self: flex-end;
+} */
+
+.we{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qwe2{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    transition: transform 0.2s ease-in;
+}
+
+.e{
+    box-shadow: 10px 10px 10px red;
+}
+
+.e1{
+    box-shadow: -10px 10px 10px red;
+}
+
+.e:hover{
+    transform: translate(-15px, -15px);
+}
+
+.e1:hover{
+    transform:translate(15px, -15px)
+}
+
+.qw1{
+    background-image: url(./one_project/telegram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px; 
+}
+.qw2{
+    background-image: url(./one_project/Facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+}
+.qw3{
+    background-image: url(./one_project/Instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+}
+.qw4{
+    background-image: url(./one_project/Twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+}
+
+h2{
+    margin: 15px 0 10px 0;
+}
+
+/* Для теста картинки */
+.qqq{
+    width: 200px;
+    height: 200px;
+    background: url(./one_project/telegram.svg) no-repeat;
+}
+.text{
+    color: rgb(83, 81, 81);
+}
+
+ul{
+    color: rgb(83, 81, 81);
+}
+
+li{
+    color: #ff0000;
+}
+li span{
+    color: rgb(83, 81, 81);
+    transition: 0.2s;
+}
+
+li:hover span{
+    color: #ff0000;
+    font-size: 1.5em;
+}
+
+li:hover{
+    font-size: 1.5em;
+    /* text-align: center; */
+    list-style: none;
+}
+p{
+    text-align: justify;
+}
+
+li:nth-child(1):hover{
+    width: 100%;
+    text-align: center;
+}
+li:nth-child(2):hover{
+    width: 100%;
+    text-align: center;
+}
+li:nth-child(3):hover{
+    width: 100%;
+    text-align: center;
+}
+.contacts p{
+    color: black;
+}
+/* .contacts p:hover{
+    text-align: center;
+    font-size: 1.2em;
+} */
+
+.contacts a:hover{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ff0000;
+}
+
+/* .contacts{
+    text-align: center; 
+} */
+/* Для ноута */
+/* .r{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px red;
+}
+.r1{
+    align-self: flex-start;
+}
+.r2{
+    align-self: flex-end;
+} */
+
+
+p{
+    margin: 0;
+}
+
+/* li {
+    cursor: pointer;
+    float: left;
+}
+  
+
+  
+li span {
+    display: inline-block;
+}
+  
+li:hover span {
+    transform: scale(1.1);
+} */
+
+
+
+/* 
+Центрирование hover навыков
+Аватарка (плавность)
+*/
+
+.qqq{
+    display: none;
+}

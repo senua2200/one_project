@@ -32,7 +32,7 @@
         padding-right: 20px;
     } */
     .container{
-        min-height: 130%;
+        
         max-width: 100%;
         display: flex;
         flex-direction: column;
@@ -88,7 +88,7 @@
         width: 310px;
     }
     .container{
-        min-height: 160%;
+        min-height: 110%;
     }
 }
 
@@ -104,13 +104,31 @@
     }
 }
 
-
-@media (orientation:landscape) and (max-width: 650px){
+@media (max-height: 800px) {
+    html{
+        min-height: 1080px;
+    }
     .container{
-        min-height: 180%;
-        background-color: red;
+        min-height: 100%;
+    }
+    .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
+
+/* Есл при повороте устройства все съезжает */
+/* @media (orientation:landscape) and (max-width: 650px){
+    html{
+        min-height: 650px;
+    }
+    .container{
+        min-height: 140%;
+        Красный цвет для проверки
+        background-color: red;
+    }
+} */
+
 
 /* ФИНАЛЬНЫЕ ТРЕБОВАНИЯ ДЛЯ ЗАВЕРШЕНИЯ ЛЕНДИНГА */
 /* 

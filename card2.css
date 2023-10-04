@@ -74,6 +74,10 @@
         box-shadow: none;
         border: 5px solid red;
     }
+    .qwe2{
+        pointer-events: none;
+    }
+
 }
 
 @media(max-width: 470px){
@@ -104,7 +108,7 @@
     }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 800px) and (orientation:portrait), (max-height: 800px) and (orientation:landscape) and (max-width: 920px){
     html{
         min-height: 1080px;
     }

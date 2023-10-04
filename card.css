@@ -24,10 +24,10 @@ body{
     background-size: cover;
     background-position: center;
 }
-.imm:hover{
+/* .imm:hover{
     background-image: url("./ghh.jpg");
-    /* transition: 0.2s; */
-}
+    transition: 0.2s;
+} */
 .im{
     text-align: center;
 }
@@ -62,7 +62,7 @@ ul{
     background-color: aqua;
     background-size: cover;
     background-position: center;
-
+    
     /* Для ноута */
     padding-top: 10px;
     padding-bottom: 10px;
@@ -132,25 +132,25 @@ ul{
 }
 
 .qw1{
-    background-image: url(./one_project/telegram.svg);
+    background-image: url(./telegram.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px 100px; 
 }
 .qw2{
-    background-image: url(./one_project/Facebook.svg);
+    background-image: url(./Facebook.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px 100px;
 }
 .qw3{
-    background-image: url(./one_project/Instagram.svg);
+    background-image: url(./Instagram.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px 100px;
 }
 .qw4{
-    background-image: url(./one_project/Twitter.svg);
+    background-image: url(./Twitter.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px 100px;
@@ -179,7 +179,7 @@ li{
 }
 li span{
     color: rgb(83, 81, 81);
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 li:hover span{
